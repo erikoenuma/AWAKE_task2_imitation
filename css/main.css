@@ -1,0 +1,222 @@
+@charset "utf-8";
+html {
+  height: 100%;
+}
+body {
+  position: relative;
+  padding-bottom: 75px;
+  min-height: 100%;
+}
+li {
+  list-style: none;
+}
+p, ul {
+  margin: 0;
+  padding: 0;
+}
+div,li {
+  box-sizing: border-box;
+}
+.header_nav {
+  background: linear-gradient(90deg, #fff 20%, rgba(0,0,0,.6) 60%);
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  align-items: stretch;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.global_nav_item {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+.global_nav_item:hover {
+  background: #fff;
+  color: #42210b;
+}
+.global_nav {
+  display: flex;
+  align-items: stretch;
+}
+.logo {
+  width: 120px;
+  display: flex;
+  align-items: center;
+}
+.logo img{
+  width: 100%;
+}
+.section_inner {
+  padding: 50px 10% 30px;
+}
+.key {
+  height: 500px;
+  background: center / cover no-repeat url("../images/sample_key.jpg");
+  font-family: 'Noto Serif JP', serif;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.key h1{
+  font-size: 2.5rem;
+}
+.section_title {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.section_concept {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.section_concept p {
+    width: 60%;
+}
+
+.section_concept img {
+    width: 35%;
+}
+
+.section_menu {
+    background: center / cover no-repeat fixed url(../images/sample_menu_bg.jpg);
+    margin: 0px 30px;
+}
+
+/* Menu_pancakes */
+
+.pancakes_area {
+    display: flex;
+    justify-content: space-between;
+    height: 250px;
+    margin-bottom: 30px;
+}
+
+.pancakes_area li {
+    width: 49%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.pancake_menu_image {
+    width: 55%;
+    object-fit: cover;
+}
+
+.pancakes_description {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: white;
+    padding: 10px;
+}
+
+.pancakes_description p:last-child {
+    text-align: right;
+}
+
+/* MENU_Coffee */
+
+.coffee_area {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: white;
+    padding: 20px;
+}
+
+.coffee_area li {
+    width: 49%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.coffee_description {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.coffee_description h2 {
+    margin: 0px;
+}
+
+/* ACCESS */
+
+.access_description dt {
+    width: 80px;
+    float: left;
+}
+
+.access_description dd {
+    margin-left: 100px;
+}
+
+.menu_title {
+  display: inline-block;
+  font-family: 'Noto Serif JP', serif;
+  font-size: 1.5rem;
+  color: #42210b;
+  border-bottom: solid #42210b 1px;
+  margin-bottom: 20px;
+}
+.center {
+  text-align: center;
+}
+.caffee_menu_image {
+  object-fit: cover;
+  height: max-content;
+  width: 20%;
+  border-radius: 50%;
+}
+
+/* footer */
+
+.footer_nav {
+    background: #251e19;
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.footer_nav_area {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer_nav_area li {
+    list-style: disc;
+}
+
+.footer_nav_item {
+    color: white;
+    font-size: small;
+    padding: 0 10px;
+}
+
+.footer_logo {
+    width: 70px;
+    align-items: baseline;
+}
+
+.footer_copyright {
+    color: white;
+    font-size: x-small;
+    text-align: center;
+}
